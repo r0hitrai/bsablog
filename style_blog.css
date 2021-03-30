@@ -1,0 +1,186 @@
+body
+{
+	margin:0;
+	padding:0;
+	font-family:roboto;
+	background-image:url('./images/background.png');
+	background-repeat:no-repeat;
+	background-color:#e5e5e5;
+}
+
+.options
+{
+	position:absolute;
+	top:7%;
+	left:16%;
+	margin:0;
+	padding:0;
+	width:3%;
+	height:5.3%;
+}
+
+.line1
+{
+	position:absolute;
+	top:15%;
+	left:15%;
+	width:60%;
+	border:2px solid white;
+}
+
+.line2
+{
+	position:absolute;
+	top:40%;
+	left:15%;
+	width:60%;
+	border:2px solid white;
+}
+
+.line3
+{
+	position:absolute;
+	top:65%;
+	left:15%;
+	width:60%;
+	border:2px solid white;
+}
+
+.main_heading
+{
+	position:absolute;
+	top:17%;
+	left:16%;
+	text-align:center;
+	color:white;
+	font-size:300%;
+	width:68%;
+}
+
+.content
+{
+	position:absolute;
+	top:40%;
+	left:16%;
+	width:68%;
+	height:65%;
+	background-color:white;
+}
+
+.sub_heading
+{
+	position:absolute;
+	top:10%;
+	left:4%;
+	color:#232323;
+	font-size:200%;
+	width:90%;
+}
+
+.date
+{
+	position:absolute;
+	top:35%;
+	left:4%;
+	color:#232323;
+	font-size:100%;
+	width:90%;
+}
+
+.data
+{
+	position:absolute;
+	top:50%;
+	left:4%;
+	color:#232323;
+	font-size:100%;
+	width:90%;
+}
+
+.comment_logo
+{
+	position:absolute;
+	top:90%;
+	left:4%;
+}
+
+.comment_text
+{
+	position:absolute;
+	top:90%;
+	left:8%;
+	color:#2196f3;
+	font-size:100%;
+	width:90%;
+}
+
+.test
+{
+	position:absolute;
+	top:17%;
+	left:16%;
+	width:68%;
+	background-color:red;
+}
+
+.test_main_heading
+{
+	text-align:center;
+	color:white;
+	font-size:300%;
+	background-color:yellow;
+}
+
+.test_content
+{
+	width:100%;
+	height:65%;
+	margin-top:8%;
+	background-color:white;
+}
+
+.test_sub_heading
+{
+	color:#232323;
+	font-size:200%;
+	width:92%;
+	margin-left:4%;
+	padding-top:3%;
+	background-color:orange;
+}
+
+.test_date
+{
+	color:#232323;
+	font-size:100%;
+	width:20%;
+	margin-top:2.8%;
+	margin-left:4%;
+	background-color:blue;
+}
+
+.test_data
+{
+	color:#232323;
+	font-size:100%;
+	width:92%;
+	margin-left:4%;
+	margin-top:4.6%;
+	background-color:purple;
+}
+
+.test_comment_logo
+{
+	margin-left:4%;
+	margin-top:4%;
+	float:left;
+}
+
+.test_comment_text
+{
+	margin-left:8%;
+	margin-top:4.5%;
+	color:#2196f3;
+	font-size:100%;
+	width:90%;
+}

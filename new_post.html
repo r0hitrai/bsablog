@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>BSAblog</title>
+<link rel="icon" href="./images/title.ico">
+<link rel="stylesheet" type="text/css" href="style_new_post.css">
+</head>
+<body>
+<div class="top">
+<div class="logo">
+<a href="index.html"><img src="./images/logo.png"></a>
+</div>
+<div class="user_pic">
+<img src="./images/profile_pic/rai1.jpg" id="profile_pic">
+</div>
+<script>
+var img=document.getElementById("profile_pic");
+var w=img.naturalWidth;
+var h=img.naturalHeight;
+if(w>h)
+{
+img.style.height=100+"%";
+}
+else
+{
+img.style.width=100+"%";
+}
+</script>
+<div class="line">
+</div>
+</div>
+<div class="level1">
+<div class="level1_text1">
+Find out what motivates the Googlers building technology for everyone
+</div>
+<div class="level1_text2">
+Post
+</div>
+<div class="post_title">
+<input type="text" id="post_title" placeholder="Post title">
+</div>
+<div class="level1_user_pic">
+<img src="./images/profile_pic/rai1.jpg" id="profile_pic1">
+</div>
+<script>
+var img=document.getElementById("profile_pic1");
+var w=img.naturalWidth;
+var h=img.naturalHeight;
+if(w>h)
+{
+img.style.height=100+"%";
+}
+else
+{
+img.style.width=100+"%";
+}
+</script>
+<div class="level1_text3">
+Posting as <b>Rohit Rai</b>
+</div>
+<div class="pb">
+<button id="pb"><b>Publish</b></button>
+</div>
+<div class="sb">
+<button id="sb"><b>Save</b></button>
+</div>
+<div class="preb">
+<button id="preb"><b>Preview</b></button>
+</div>
+<div class="cb">
+<button id="cb"><b>Close</b></button>
+</div>
+</div>
+<div class="middle">
+<div class="textbox">
+<textarea id="textbox"></textarea>
+</div>
+</div>
+</body>
+</html>

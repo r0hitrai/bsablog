@@ -1,0 +1,177 @@
+body
+{
+	margin:0;
+	padding:0;
+	background-color:#262d69;
+	font-family:roboto;
+	color:white;
+}
+
+.logo
+{
+	position:absolute;
+	top:0;
+}
+
+.bird
+{
+	position:absolute;
+	top:0;
+	right:0;
+}
+
+.middle
+{
+	background-color:white;
+	width:50%;
+	height:70%;
+	position:absolute;
+	top:15%;
+	left:25%;	
+	border-radius:0% 20%;
+	background: rgba(0,0,0,0.5);
+}
+
+.create
+{
+	font-size:150%;
+	position:absolute;
+	top:5%;
+	left:27%;	
+}
+
+.ctb
+{
+	position:absolute;
+	top:14%;
+	left:39%;	
+}
+
+.fname
+{
+	position:absolute;
+	top:25%;
+	left:6%;
+	
+}
+
+#fname
+{
+	width:130%;
+	border:none;
+	border-bottom:1px solid blue;
+	font-size:115%;
+	background:none;
+}
+
+.lname
+{
+	position:absolute;
+	top:25%;
+	left:51%;
+}
+
+#lname
+{
+	width:130%;
+	border:none;
+	border-bottom:1px solid blue;
+	font-size:115%;
+	background:none;
+}
+
+#email
+{
+	width:273%;
+	border:none;
+	border-bottom:1px solid blue;	
+	font-size:115%;
+	background:none;
+}
+
+.email
+{
+	position:absolute;
+	top:43%;
+	left:6%;
+}
+
+.email_l
+{
+	position:absolute;
+	top:50%;
+	left:6%;
+	font-size:90%;
+}
+
+.pass
+{
+	position:absolute;
+	top:65%;
+	left:6%;
+}
+
+#pass
+{
+	width:130%;
+	border:none;
+	border-bottom:1px solid blue;	
+	font-size:115%;
+	background:none;
+}
+
+
+.pass_c
+{
+	position:absolute;
+	top:65%;
+	left:51%;
+}
+
+#pass_c
+{
+	width:130%;
+	border:none;
+	border-bottom:1px solid blue;
+	font-size:115%;
+	background:none;
+}
+
+.pass_l
+{
+	position:absolute;
+	top:72%;
+	left:6%;
+	font-size:90%;
+}
+
+.signin
+{
+	position:absolute;
+	top:85%;
+	left:6%;
+	font-size:125%;
+}
+.signup_b
+{
+	position:absolute;
+	top:83%;
+	left:81%;
+}
+
+#signup_b
+{
+	border:none;
+	font-size:125%;
+	padding:10%;
+	background-color:blue;
+	color:white;
+	border-radius:10px;	
+	cursor:pointer;
+}
+
+a
+{
+	text-decoration:none;
+	color:white;
+}

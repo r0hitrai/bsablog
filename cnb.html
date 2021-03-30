@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>BSAblog</title>
+<link rel="icon" href="./images/title.ico">
+<link rel="stylesheet" type="text/css" href="style_cnb.css">
+</head>
+<body>
+<div class="top">
+<div class="logo">
+<a href="index.html"><img src="./images/logo.png"></a>
+</div>
+<div class="user_pic">
+<img src="./images/profile_pic/rai1.jpg" id="profile_pic">
+</div>
+<script>
+var img=document.getElementById("profile_pic");
+var w=img.naturalWidth;
+var h=img.naturalHeight;
+if(w>h)
+{
+img.style.height=100+"%";
+}
+else
+{
+img.style.width=100+"%";
+}
+</script>
+<div class="line">
+</div>
+</div>
+<div class="left">
+<div class="option1">
+<select id="list">
+<option value="new_blog">New blog...</option>
+</select>
+</div>
+<div class="option2">
+</div>
+<div class="option2_pic">
+<img src="./images/bird_orange.png">
+</div>
+<div class="option2_text">
+Welcome
+</div>
+<div class="option3_pic">
+<img src="./images/settings.png">
+</div>
+<div class="option3_text">
+Settings
+</div>
+<div class="line2">
+</div>
+<div class="option4_pic">
+<img src="./images/bookmark.png">
+</div>
+<div class="option4_text">
+Reading List
+</div>
+<div class="option5_pic">
+<img src="./images/help.png">
+</div>
+<div class="option5_text">
+Help
+</div>
+</div>
+<div class="middle">
+<div class="typewriter">
+<img src="./images/typewriter.png">
+</div>
+<div class="middle_text">
+You are not an author on any blogs yet,
+<br>
+create one now to start posting!
+</div>
+<div class="cnb">
+<button id="cnb" onclick="cnb_show()">CREATE NEW BLOG</button>
+</div>
+<script>
+function cnb_show()
+{
+document.getElementById("under").style.display="block";
+document.getElementById("over").style.display="block";
+}
+</script>
+</div>
+<div class="under" id="under">
+</div>
+<div class="over" id="over">
+<div class="over_text1">
+Blog List > <p1>Create a new blog</p1>
+</div>
+<div class="over_text2">
+Title
+</div>
+<div class="over_ti">
+<input type="text" id="title">
+</div>
+<div class="over_text3">
+Address
+</div>
+<div class="over_ai">
+<input type="text" id="address" placeholder="E.g. mynewblogaddress.bsablog.com">
+</div>
+<div class="over_b">
+<button id="cb">Create blog!</button>
+</div>
+<div class="over_c">
+<button id="canb" onclick="cnb_hide()">Cancel</button>
+</div>
+<script>
+function cnb_hide()
+{
+document.getElementById("under").style.display="none";
+document.getElementById("over").style.display="none";
+}
+</script>
+</div>
+</body>
+</html>

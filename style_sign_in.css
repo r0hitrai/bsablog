@@ -1,0 +1,113 @@
+body
+{
+	margin:0;
+	padding:0;
+	background-color:#262d69;
+	font-family:roboto;
+	color:white;
+}
+
+.logo
+{
+	position:absolute;
+	top:0;
+}
+
+.bird
+{
+	position:absolute;
+	top:0;
+	right:0;
+}
+
+.middle
+{
+	width:30%;
+	height:60%;
+	position:absolute;
+	top:20%;
+	left:35%;
+	border-radius:0% 20%;
+	background: rgba(0,0,0,0.5);
+}
+
+.signin
+{
+	font-size:150%;
+	position:absolute;
+	top:5%;
+	left:40%;	
+}
+.ctb
+{
+	position:absolute;
+	top:14%;
+	left:33%;	
+}
+
+
+.email
+{
+	position:absolute;
+	top:30%;
+	left:5%;
+}
+
+#email
+{
+	width:165%;
+	border:none;
+	border-bottom:1px solid blue;	
+	font-size:115%;
+	background:none;
+	color:white;
+}
+
+#pass
+{
+	width:165%;
+	border:none;
+	border-bottom:1px solid blue;	
+	font-size:115%;
+	background:none;
+	color:white;
+}
+
+.pass
+{
+	position:absolute;
+	top:50%;
+	left:5%;
+}
+
+.create
+{
+	position:absolute;
+	top:75%;
+	left:5%;
+	font-size:125%;
+}
+
+.signin_b
+{
+	position:absolute;
+	top:73%;
+	left:77%;
+}
+
+#signin_b
+{
+	border:none;
+	font-size:125%;
+	padding:10%;
+	background-color:blue;
+	color:white;
+	border-radius:10px;
+	cursor:pointer;
+}
+
+a
+{
+	text-decoration:none;
+	color:white;
+}

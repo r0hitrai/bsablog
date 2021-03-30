@@ -1,0 +1,101 @@
+<html>
+<head>
+<title>BSAblog</title>
+<link rel="icon" href="./images/title.ico">
+<link rel="stylesheet" type="text/css" href="style_home.css">
+</head>
+<body>
+<div class="top">
+<div class="logo">
+<a href="index.html"><img src="./images/logo.png"></a>
+</div>
+<div class="user_pic" onclick="ui()">
+</div>
+<script>
+var flag=0;
+function ui()
+{
+if(flag==0)
+{
+document.getElementById("ui").style.display="block";
+flag=1;
+}
+else
+{
+document.getElementById("ui").style.display="none";
+flag=0;
+}
+}
+</script>
+<div class="user_info" id="ui">
+<div class="sob">
+<button id="sob"><b>Sign out</b></button>
+</div>
+<div class="user_pic2">
+<div class="change">
+<b>Change</b>
+</div>
+</div>
+<div class="user_name">
+<b>Rohit Rai</b>
+</div>
+<div class="user_email">
+rai@gmail.com
+</div>
+<div class="cpb">
+<button id="cpb"><b>Change Password</b></button>
+</div>
+</div>
+<div class="line">
+</div>
+</div>
+<div class="left">
+<div class="option1">
+<select id="list">
+<option value="new_blog">New blog...</option>
+</select>
+</div>
+<div class="option2">
+</div>
+<div class="option2_pic">
+<img src="./images/bird_orange.png">
+</div>
+<div class="option2_text">
+Welcome
+</div>
+<div class="option3_pic">
+<img src="./images/settings.png">
+</div>
+<div class="option3_text">
+Settings
+</div>
+<div class="line2">
+</div>
+<div class="option4_pic">
+<img src="./images/bookmark.png">
+</div>
+<div class="option4_text">
+Reading List
+</div>
+<div class="option5_pic">
+<img src="./images/help.png">
+</div>
+<div class="option5_text">
+Help
+</div>
+</div>
+<div class="middle">
+<div class="typewriter">
+<img src="./images/typewriter.png">
+</div>
+<div class="middle_text">
+You are not an author on any blogs yet,
+<br>
+create one now to start posting!
+</div>
+<div class="cnb">
+<button id="cnb">CREATE NEW BLOG</button>
+</div>
+</div>
+</body>
+</html>

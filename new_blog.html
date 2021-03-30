@@ -1,0 +1,120 @@
+<html>
+<head>
+<title>BSAblog</title>
+<link rel="icon" href="./images/title.ico">
+<link rel="stylesheet" type="text/css" href="style_new_blog.css">
+</head>
+<body>
+<div class="top">
+<div class="logo">
+<a href="index.html"><img src="./images/logo.png" width="204" height="61"></a>
+</div>
+<div class="line">
+</div>
+<div class="top_text1">
+All posts
+</div>
+<div class="user_pic">
+<img src="./images/profile_pic/rai1.jpg" id="profile_pic">
+</div>
+<script>
+var img=document.getElementById("profile_pic");
+var w=img.naturalWidth;
+var h=img.naturalHeight;
+if(w>h)
+{
+img.style.height=100+"%";
+}
+else
+{
+img.style.width=100+"%";
+}
+</script>
+</div>
+<div class="left">
+<div class="option1">
+<select id="list">
+<option value="blog_1">Find out what motivates the Googlers building technology for everyone</option>
+<option value="new_blog">New blog...</option>
+</select>
+</div>
+<div class="left_text1">
+View blog
+</div>
+<div class="option2_pic">
+<img src="./images/posts.png" width="25" height="25">
+</div>
+<div class="option2_text">
+Posts
+</div>
+<div class="left_text2">
+All
+</div>
+<div class="option3_pic">
+<img src="./images/stats.png" width="25" height="25">
+</div>
+<div class="option3_text">
+Stats
+</div>
+<div class="option4_pic">
+<img src="./images/comments.png" width="25" height="25">
+</div>
+<div class="option4_text">
+Comments
+</div>
+<div class="option5_pic">
+<img src="./images/settings.png" width="25" height="25">
+</div>
+<div class="option5_text">
+Settings
+</div>
+<div class="line2">
+</div>
+<div class="option6_pic">
+<img src="./images/bookmark.png" width="20" height="25">
+</div>
+<div class="option6_text">
+Reading List
+</div>
+<div class="option7_pic">
+<img src="./images/help.png" width="25" height="25">
+</div>
+<div class="option7_text">
+Help
+</div>
+</div>
+<div class="middle">
+<div class="npb">
+<button id="npb">New post</button>
+</div>
+<div class="alb">
+<button id="alb">All labels</button>
+</div>
+<div class="search">
+<input type="text" id="search">
+</div>
+<div class="middle_nav1">
+<ul id="middle_nav1">
+<li id="li_img"><a href="#"><img src="./images/label.png" width="18" height="18"></a></li>
+<li><a href="#">Publish</a></li>
+<li><a href="#">Revert to draft</a></li>
+<li id="li_img"><a href="#"><img src="./images/delete.png" width="18" height="18"></a></li>
+</ul>
+</div>
+<div class="middle_nav2">
+<ul id="middle_nav2">
+<li id="nav2_li"><a href="#"><div class="previous"></div></a></li>
+<li><a href="#">1</a></li>
+<li id="nav2_li"><a href="#"><div class="next"></div></a></a></li>
+</ul>
+</div>
+<div class="line3">
+</div>
+<div class="middle_text1">
+<p1>There are no posts. <a href="#">Create a new post</a></p1>
+</div>
+<div class="line4">
+</div>
+</div>
+</body>
+</html>
